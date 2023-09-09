@@ -22,12 +22,11 @@
 .button{
     height:70px;
     width:70px;
-    display: flex;
-    justify-content: center;
     border: 2px solid rgba(0, 0, 0, 0.034);
     margin:5px;
     border-radius: 10px;
     background-color: dimgray;
+    text-align: center;
 }
 .operationequal{
     display: flex;
@@ -41,9 +40,7 @@
     margin-top: 15%;
 }
 
-p{
-    margin-top: 35%
-}
+
 
 .screenCal{
     height: 100px;

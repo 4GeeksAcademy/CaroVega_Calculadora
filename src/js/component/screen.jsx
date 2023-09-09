@@ -2,11 +2,12 @@ import React from "react";
 
 
 
+
 //create your first component
-const Screen = () => {
+const Screen = (prop) => {
 	return (
 		<div className="screenCal">
-			<h1> valores</h1>
+			<h1>{prop.result}</h1>
 		</div>
 			
 	);
