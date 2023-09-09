@@ -4,15 +4,15 @@ const Number = () => {
 	return (
 		<div className="keyboard">
             <div className ="rowcal">
-                <div className="button operation">C</div>
+                <div className="button operation"><p>C</p></div>
                 <div className="button operation">+-</div>
                 <div className="button operation">%</div>
                 <div className="button operation">-</div>
             </div>
             <div className ="rowcal">
 			    <div className="button text-center"><p>7</p></div>
-                <div className="button">8</div>
-                <div className="button">9</div>
+                <div className="button"><p>8</p></div>
+                <div className="button"><p>9</p></div>
                 <div className="button operation">X</div>
             </div>
             <div className ="rowcal">
