@@ -8,7 +8,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Home = () => {
 	return (
 		<div className="calculator">
-			<div>
+			<div className="bodyCal mt-5 p-2">
 				<Screen/>
 				<Number/>
 			</div>
