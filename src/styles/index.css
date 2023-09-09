@@ -10,3 +10,28 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.calculator{
+   display:flex;
+   justify-content: center;
+}
+
+.rowcal{
+    display:flex;
+}
+
+.button{
+    height:70px;
+    width:70px;
+    text-align: center;
+    border: 1px solid black;
+    margin:5px;
+    border-radius: 10px;
+}
+.operationequal{
+    height:70px;
+    width:150px;
+}
+
+p{
+    margin-top: 35%
+}
