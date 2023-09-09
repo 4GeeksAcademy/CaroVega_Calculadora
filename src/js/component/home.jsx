@@ -1,5 +1,6 @@
 import React from "react";
 import Number from "./number";
+import Screen from "./screen";
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 
@@ -7,7 +8,10 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Home = () => {
 	return (
 		<div className="calculator">
-			<Number/>
+			<div>
+				<Screen/>
+				<Number/>
+			</div>
 		</div>
 			
 	);

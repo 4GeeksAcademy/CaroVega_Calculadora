@@ -35,3 +35,11 @@
 p{
     margin-top: 35%
 }
+
+.screenCal{
+    height: 100px;
+    width: 305px;
+    border: 1px solid black;
+    margin:5px;
+    border-radius: 10px;
+}
